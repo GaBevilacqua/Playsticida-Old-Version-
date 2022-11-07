@@ -1,3 +1,8 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
 nav{
 	background-color: #129651;
 	
@@ -11,10 +16,11 @@ nav{
 p{
 	text-align: justify;
 }
+
 a{
 	text-decoration: none;
-
 }
+
 
 footer p a {
 	margin: 5px 15px;
@@ -32,13 +38,13 @@ footer h4{
 
 }
 footer .navbar-nav a{
-	color: #e5e5e5;
+	color: black;
 	font-size: 1.2em;
 
 
 }
 footer .navbar-nav a:hover{
-	color: #ffff80;
+	color: white;
 	text-decoration: none;
 	
 }
