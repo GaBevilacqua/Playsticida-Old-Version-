@@ -55,3 +55,27 @@ footer ul li {
 	float: left;
 	margin: 0px 5px;
  }
+ #flag{
+	font-size: 60px;
+	text-decoration: none;
+	color: black;
+
+ }
+ #flag h1:hover{
+	color: #129651;
+	font-size: 61px;
+	transition-delay:70ms;
+	
+
+ }
+
+ @media only screen and (max-width: 720px) {
+	
+	#idiomas{
+		display: none;
+	}
+	
+ }
+
+ 
+ 
