@@ -74,6 +74,21 @@ footer ul li {
 	#idiomas{
 		display: none;
 	}
+	#menu{
+		display: none;
+	}
+	
+	
+	
+ }
+
+ @media only screen and (min-width: 720px) {
+	
+	#menu-app{
+		display: none;
+	}
+
+	
 	
  }
 
