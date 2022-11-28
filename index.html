@@ -7,7 +7,7 @@
   <!-- Link externos-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/45942e9e08.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&display=swap" rel="stylesheet"> 
@@ -24,9 +24,20 @@
 
 </head>
 <body>
+  <div id="loading" style="display: block">
+    <br><br><br><br><br><br><br><br><br>
+    <center> <!-- bounce animation with no "squish" -->
+      
+      <div class="fa-5x" style="color: #28a745;">
+        <i class="fa-solid fa-2x fa-leaf fa-bounce"></i>
+      </div>
+    </center>
 
+</div>
   
 
+    <div id="conteudo" style="display: none">
+    
 	<header id="menu">
     
 		<nav class="navbar fixed-top navbar-expand-lg" >
@@ -284,6 +295,6 @@
      </div>
    </footer>
     </footer>
-
+    </div>
 </body>
 </html>
