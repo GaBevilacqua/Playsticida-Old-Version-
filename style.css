@@ -103,12 +103,34 @@ footer ul li {
 	height: 100%;
 }
 
-#idiomas{
-	
+
+
+
+.efeito {
+	opacity: 0;
+	transform: translateX(-50px);
+	transition: all 0.5s ease-in-out;
+  }
+  
+  .efeito.mostrar {
+	opacity: 1;
+	transform: translateX(0);
+  }
+ 
+
+  
+  .efeito-saida {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.5s ease-in-out;
 }
 
+.efeito-saida.mostrar {
+    opacity: 1;
+    transform: translateX(0);
+}
 
-
-
- 
- 
+.efeito-saida.sair {
+    opacity: 0;
+    transform: translateX(50px);
+}
